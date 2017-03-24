@@ -10,3 +10,7 @@ BTO社赤外線リモコンキットのファームウェア　改変版
 
 ★赤外線パターン受信機能を削除
 メモリ領域の制限で，受信機能は削除しています．
+
+参照
+http://sosoru.hatenablog.jp/entry/2017/02/26/000857
+http://sosoru.hatenablog.jp/entry/2017/03/24/191126
