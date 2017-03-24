@@ -1,0 +1,2 @@
+# RemoconServant_sosoru
+BTO社赤外線リモコンキットのファームウェア　改変版
