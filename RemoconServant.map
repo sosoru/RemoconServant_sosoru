@@ -1,0 +1,1106 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Fri Mar 24 18:41:25 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+    HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
+     LOW_INTERRUPT_VECTOR       code   0x000018    program   0x000006
+    REMAPPED_RESET_VECTOR       code   0x001000    program   0x000006
+           .code___init.o       code   0x001006    program   0x000002
+REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x001008    program   0x000006
+         .code_pw1close.o       code   0x00100e    program   0x000004
+.idata_usb_function_hid.o_i    romdata   0x001012    program   0x000000
+.romdata_usb_function_hid.o    romdata   0x001012    program   0x000000
+        .idata_eeprom.o_i    romdata   0x001012    program   0x000000
+        .romdata_eeprom.o    romdata   0x001012    program   0x000000
+      .idata_pw1close.o_i    romdata   0x001012    program   0x000000
+      .romdata_pw1close.o    romdata   0x001012    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x001012    program   0x000000
+    .romdata_usb_device.o    romdata   0x001012    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x001012    program   0x000000
+    .idata_usb_device.o_i    romdata   0x001012    program   0x000000
+       .idata_pw1open.o_i    romdata   0x001012    program   0x000000
+       .romdata_pw1open.o    romdata   0x001012    program   0x000000
+        .idata_t0open.o_i    romdata   0x001012    program   0x000000
+        .romdata_t0open.o    romdata   0x001012    program   0x000000
+        .idata_t2open.o_i    romdata   0x001012    program   0x000000
+        .romdata_t2open.o    romdata   0x001012    program   0x000000
+      .idata_pw1setdc.o_i    romdata   0x001012    program   0x000000
+      .romdata_pw1setdc.o    romdata   0x001012    program   0x000000
+       .idata_t0write.o_i    romdata   0x001012    program   0x000000
+       .romdata_t0write.o    romdata   0x001012    program   0x000000
+        .idata___init.o_i    romdata   0x001012    program   0x000000
+        .romdata___init.o    romdata   0x001012    program   0x000000
+         .idata_c018i.o_i    romdata   0x001012    program   0x000000
+         .romdata_c018i.o    romdata   0x001012    program   0x000000
+            .code_c018i.o       code   0x001012    program   0x000000
+.idata_usb_descriptors.o_i    romdata   0x001012    program   0x000000
+  .code_usb_descriptors.o       code   0x001012    program   0x000000
+             .stringtable    romdata   0x001012    program   0x000000
+REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
+                   .cinit    romdata   0x00101e    program   0x00000e
+             .code_main.o       code   0x00102c    program   0x001514
+       .code_usb_device.o       code   0x002540    program   0x00120e
+.romdata_usb_descriptors.o    romdata   0x00374e    program   0x00018c
+ .code_usb_function_hid.o       code   0x0038da    program   0x000122
+               _cinit_scn       code   0x0039fc    program   0x00009e
+                   STRING       code   0x003a9a    program   0x000096
+         .code_pw1setdc.o       code   0x003b30    program   0x00005e
+           .code_eeprom.o       code   0x003b8e    program   0x00004a
+          .code_pw1open.o       code   0x003bd8    program   0x000048
+          .code_t0write.o       code   0x003c20    program   0x000038
+           .code_t0open.o       code   0x003c58    program   0x000038
+           .code_t2open.o       code   0x003c90    program   0x000036
+         .code_fxd1616u.o       code   0x003cc6    program   0x00002c
+          .romdata_main.o    romdata   0x003cf2    program   0x000028
+                    .code       code   0x003d1a    program   0x000020
+             _startup_scn       code   0x003d3a    program   0x00001c
+          .idata_main.o_i    romdata   0x003d56    program   0x000042
+    .config_300000_main.o    romdata   0x300000    program   0x000001
+    .config_300001_main.o    romdata   0x300001    program   0x000001
+    .config_300002_main.o    romdata   0x300002    program   0x000001
+    .config_300003_main.o    romdata   0x300003    program   0x000001
+    .config_300005_main.o    romdata   0x300005    program   0x000001
+    .config_300006_main.o    romdata   0x300006    program   0x000001
+    .config_300008_main.o    romdata   0x300008    program   0x000001
+    .config_300009_main.o    romdata   0x300009    program   0x000001
+    .config_30000a_main.o    romdata   0x30000a    program   0x000001
+    .config_30000b_main.o    romdata   0x30000b    program   0x000001
+    .config_30000c_main.o    romdata   0x30000c    program   0x000001
+    .config_30000d_main.o    romdata   0x30000d    program   0x000001
+                MATH_DATA      udata   0x000000       data   0x000010
+YourLowPriorityISRCode_tmp      udata   0x000010       data   0x000004
+                 .tmpdata      udata   0x000014       data   0x000004
+            .idata_main.o      idata   0x000060       data   0x000042
+      .udata_usb_device.o      udata   0x0000a2       data   0x000040
+           .udata_c018i.o      udata   0x0000e2       data   0x00000a
+.udata_usb_function_hid.o      udata   0x0000ec       data   0x000002
+              temp_tblptr      udata   0x0000ee       data   0x000001
+        .udata_pw1setdc.o      udata   0x0000ef       data   0x000000
+          .idata_t2open.o      idata   0x0000ef       data   0x000000
+        .idata_pw1setdc.o      idata   0x0000ef       data   0x000000
+         .udata_t0write.o      udata   0x0000ef       data   0x000000
+          .udata_t2open.o      udata   0x0000ef       data   0x000000
+          .idata_t0open.o      idata   0x0000ef       data   0x000000
+          .udata_t0open.o      udata   0x0000ef       data   0x000000
+         .idata_pw1open.o      idata   0x0000ef       data   0x000000
+         .udata_pw1open.o      udata   0x0000ef       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000ef       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000ef       data   0x000000
+        .idata_pw1close.o      idata   0x0000ef       data   0x000000
+        .udata_pw1close.o      udata   0x0000ef       data   0x000000
+         .idata_t0write.o      idata   0x0000ef       data   0x000000
+          .udata___init.o      udata   0x0000ef       data   0x000000
+          .idata_eeprom.o      idata   0x0000ef       data   0x000000
+          .udata_eeprom.o      udata   0x0000ef       data   0x000000
+.idata_usb_function_hid.o      idata   0x0000ef       data   0x000000
+          .idata___init.o      idata   0x0000ef       data   0x000000
+      .idata_usb_device.o      idata   0x0000ef       data   0x000000
+ .idata_usb_descriptors.o      idata   0x0000ef       data   0x000000
+ .udata_usb_descriptors.o      udata   0x0000ef       data   0x000000
+           .idata_c018i.o      idata   0x0000ef       data   0x000000
+                   .stack      udata   0x000100       data   0x000050
+            .udata_main.o      udata   0x000150       data   0x00003f
+                  USB_BDT      udata   0x000200       data   0x000069
+                  usbram2      udata   0x000269       data   0x00008d
+              SFR_BANKED0      udata   0x000f53       data   0x00000d
+            SFR_UNBANKED0      udata   0x000f60       data   0x0000a0
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000d      
+                            0x000018    0x00001d      
+                            0x001000    0x001011      
+                            0x001018    0x003d97      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            11696 out of 16408 program addresses used, program memory utilization is 71%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                ClosePWM1   0x00100e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1close.c
+                 FXD1616U   0x003cc6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 High_ISR   0x000008    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         InitializeSystem   0x00122a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                  Low_ISR   0x000018    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                 OpenPWM1   0x003bd8    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x003c02    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+               OpenTimer0   0x003c58    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+               OpenTimer2   0x003c90    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
+                ProcessIO   0x0013f4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               ReadEEPROM   0x003b8e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\eeprom.c
+        Remapped_High_ISR   0x001008    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         Remapped_Low_ISR   0x001018    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+           RemoconOutData   0x001dbe    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       RemoconReceiveData   0x00253e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                SetDCPWM1   0x003b30    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+       USBCBCheckOtherReq   0x001cc4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        USBCBErrorHandler   0x001cc2    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              USBCBInitEP   0x001cca    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          USBCBSendResume   0x001d0c    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+    USBCBStdSetDscHandler   0x001cc8    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             USBCBSuspend   0x001cbc    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+     USBCBWakeFromSuspend   0x001cbe    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        USBCB_SOF_Handler   0x001cc0    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              USBCancelIO   0x00369e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+       USBCheckHIDRequest   0x0038da    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\HID Device Driver\usb_function_hid.c
+       USBCheckStdRequest   0x002a8a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+     USBConfigureEndpoint   0x0033b6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+  USBCtrlEPAllowDataStage   0x002e3e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBCtrlEPAllowStatusStage   0x002d9c    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+         USBCtrlEPService   0x002862    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+ USBCtrlEPServiceComplete   0x003028    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBCtrlTrfInHandler   0x0029d6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+     USBCtrlTrfOutHandler   0x00298c    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBCtrlTrfRxService   0x0031a8    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+   USBCtrlTrfSetupHandler   0x00292e    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBCtrlTrfTxService   0x0030ea    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+            USBDeviceInit   0x002540    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+           USBDeviceTasks   0x002660    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+        USBEnableEndpoint   0x003462    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+         USBStallEndpoint   0x0034d0    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+          USBStallHandler   0x0027d6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+  USBStdFeatureReqHandler   0x002b48    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBStdGetDscHandler   0x002eba    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+   USBStdGetStatusHandler   0x002f74    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBStdSetCfgHandler   0x0032e6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+               USBSuspend   0x00280a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+     USBTransferOnePacket   0x0035ac    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+       USBWakeFromSuspend   0x002834    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+               USB_CD_Ptr   0x0038d2    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+               USB_SD_Ptr   0x0038d4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x001d28    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                 UserInit   0x001234    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              WriteEEPROM   0x003baa    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\eeprom.c
+              WriteTimer0   0x003c20    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+  YourHighPriorityISRCode   0x00102c    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+   YourLowPriorityISRCode   0x00103a    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              _2jContinue   0x003b00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+              _3jContinue   0x003acc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                   _3jEnd   0x003b0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   _4jEnd   0x003ad6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+     ___case_114_lbl00172   0x001dac    program     static                          
+     ___case_115_lbl00168   0x001d9c    program     static                          
+     ___case_116_lbl00170   0x001da4    program     static                          
+     ___case_117_lbl00169   0x001da0    program     static                          
+       ___case_1_lbl00165   0x001d90    program     static                          
+       ___case_2_lbl00166   0x001d94    program     static                          
+   ___case_32767_lbl00171   0x001da8    program     static                          
+       ___case_3_lbl00167   0x001d98    program     static                          
+      ___default_lbl00173   0x001db0    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x003cf0    program     static                          
+       ___return_lbl00000   0x001004    program     static                          
+       ___return_lbl00001   0x003d54    program     static                          
+       ___return_lbl00001   0x00100c    program     static                          
+       ___return_lbl00002   0x003a98    program     static                          
+       ___return_lbl00002   0x00101c    program     static                          
+       ___return_lbl00003   0x00000c    program     static                          
+       ___return_lbl00004   0x00001c    program     static                          
+       ___return_lbl00163   0x001db6    program     static                          
+   ___switchexit_lbl00164   0x001db2    program     static                          
+               __config_0   0x300000    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_1   0x300001    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              __config_10   0x30000c    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              __config_11   0x30000d    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_2   0x300002    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_3   0x300003    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_4   0x300005    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_5   0x300006    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_6   0x300008    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_7   0x300009    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_8   0x30000a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_9   0x30000b    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                   __init   0x001006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+              __tmplbl_19   0x001d44    program     static                          
+              __tmplbl_20   0x001d50    program     static                          
+              __tmplbl_21   0x001d5a    program     static                          
+              __tmplbl_22   0x001d64    program     static                          
+              __tmplbl_23   0x001d6e    program     static                          
+              __tmplbl_24   0x001d78    program     static                          
+              __tmplbl_25   0x001d82    program     static                          
+              __tmplbl_26   0x001d8c    program     static                          
+              __tmplbl_54   0x001ca8    program     static                          
+              __tmplbl_55   0x001ca8    program     static                          
+            __zero_memory   0x003d1a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                _do_cinit   0x0039fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _reset   0x001000    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                 _startup   0x003d3a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                compare_l   0x003d30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+configCleanerRemoteCode_Jutan   0x003cfc    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+configCleanerRemoteCode_Kyou   0x003cf2    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+configCleanerRemoteCode_Off   0x003d10    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+configCleanerRemoteCode_YukaTatami   0x003d06    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        configDescriptor1   0x003760    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                copy_loop   0x003a6e    program     static                          
+            copy_one_byte   0x003a74    program     static                          
+               device_dsc   0x00374e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                     done   0x003a98    program     static                          
+             done_copying   0x003a82    program     static                          
+                  endloop   0x003cec    program     static                          
+                hid_rpt01   0x0037db    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                hid_rpt02   0x00380f    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                hid_rpt03   0x00382e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                hid_rpt04   0x00386d    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                     jEnd   0x003ade    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                     jEnd   0x003b12    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                     jEnd   0x003b2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x003ac0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                    jLoop   0x003af4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    jLoop   0x003b24    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     loop   0x003cd0    program     static                          
+                     loop   0x003d4a    program     static                          
+                   loop_h   0x003d28    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   loop_l   0x003d32    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     main   0x0011d4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            memcpypgm2ram   0x003a9a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                   memset   0x003ae0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    sd000   0x00388a    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                    sd001   0x00388e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                    sd002   0x0038b4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                   strlen   0x003b14    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     test   0x003a16    program     static                          
+               zero_block   0x003d28    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    ANSEL   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ANSELH   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ANSELHbits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                ANSELbits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      BDT   0x000200       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+       BothEP0OutUOWNsSet   0x0000d1       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  CM1CON0   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CM1CON0bits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  CM2CON0   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CM2CON0bits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  CM2CON1   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CM2CON1bits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CtrlTrfData   0x000258       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                EEADRbits   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IOCA   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IOCAbits   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IOCB   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IOCBbits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  OSCCON2   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              OSCCON2bits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PSTRCON   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              PSTRCONbits   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PWM1CON   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              PWM1CONbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  REFCON0   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON0bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  REFCON1   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON1bits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  REFCON2   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON2bits   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+       ReceivedDataBuffer   0x000276       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             RemoteWakeup   0x0000cd       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                     SIGN   0x00000e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                   SLRCON   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SLRCONbits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SRCON0   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SRCON0bits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SRCON1   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SRCON1bits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SSPMSK   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SSPMSKbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 SetupPkt   0x000250       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+         ToSendDataBuffer   0x0002b6       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                    UADDR   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                UADDRbits   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UCFG   0x000f61       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UCFGbits   0x000f61       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UCON   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UCONbits   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEIE   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEIEbits   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEIR   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEIRbits   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP0   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP0bits   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP1   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP1bits   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP2   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP2bits   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP3   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP3bits   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP4   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP4bits   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP5   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP5bits   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP6   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP6bits   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP7   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP7bits   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    UFRMH   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                UFRMHbits   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    UFRML   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                UFRMLbits   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      UIE   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  UIEbits   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      UIR   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  UIRbits   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+   USBActiveConfiguration   0x0000a3       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+    USBAlternateInterface   0x0000a4       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+        USBBusIsSuspended   0x0000ce       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBDeferINDataStagePackets   0x0000e0       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBDeferOUTDataStagePackets   0x0000e1       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBDeferStatusStagePacket   0x0000dd       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+           USBDeviceState   0x0000a2       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              USBInHandle   0x00006d       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             USBOutHandle   0x00006b       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+USBStatusStageEnabledFlag1   0x0000de       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBStatusStageEnabledFlag2   0x0000df       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBStatusStageTimeoutCounter   0x0000dc       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                    USTAT   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                USTATbits   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                USTATcopy   0x0000cf       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                 VREFCON0   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+             VREFCON0bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 VREFCON1   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+             VREFCON1bits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 VREFCON2   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+             VREFCON2bits   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                        W   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     WPUA   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 WPUAbits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     WPUB   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 WPUBbits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 __AARGB0   0x000007       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x000008       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __BARGB0   0x00000c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB1   0x00000b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB2   0x00000a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB3   0x000009       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                   __BEXP   0x00000d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                __FPFLAGS   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                  __REMB0   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB3   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __tmp_0   0x000014       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                  __tmp_0   0x000014       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                  __tmp_2   0x000010       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          active_protocol   0x0000ed       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\HID Device Driver\usb_function_hid.c
+                c_version   0x000060       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+     controlTransferState   0x0000be       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                curr_byte   0x0000e5       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000e7       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000e9       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                debug_ary   0x00009b       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              delay_count   0x00018d       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             eeprom_1data   0x000160       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        eeprom_check_data   0x000071       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          endpoint_number   0x0000d0       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+               ep_data_in   0x0000d2       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              ep_data_out   0x0000d7       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+               hid_report   0x00026e       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            hid_report_in   0x000261       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+           hid_report_out   0x000260       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      hid_report_out_flag   0x0000a1       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                idle_rate   0x0000ec       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\HID Device Driver\usb_function_hid.c
+                  inPipes   0x0000bf       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+          keyboard_buffer   0x000150       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+lastINTransmissionKeyboard   0x00015c       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+lastOUTTransmissionKeyboard   0x00015e       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         lastTransmission   0x000158       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        lastTransmission2   0x00015a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             mouse_buffer   0x000066       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              mouse_input   0x00026a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+     mouse_input_out_flag   0x0000a0       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                 outPipes   0x0000c4       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+   pBDTEntryEP0OutCurrent   0x0000a5       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      pBDTEntryEP0OutNext   0x0000a7       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              pBDTEntryIn   0x0000b3       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+             pBDTEntryOut   0x0000a9       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                     pDst   0x0000cb       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                     prom   0x0000e2       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+  result_button_press_set   0x00006f       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+ result_button_press_set2   0x000070       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        shortPacketStatus   0x0000bd       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              tblptru_sav   0x0000ee       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+             uc_end_count   0x000098       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        uc_first_data_bit   0x000095       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            uc_now_signal   0x000085       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              uc_out_buff   0x00016a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_out_code_type   0x000097       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_out_data0_off   0x000090       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          uc_out_data0_on   0x00008f       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_out_data1_off   0x000092       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          uc_out_data1_on   0x000091       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          uc_out_data_len   0x00008e       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            uc_out_status   0x000089       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            uc_pre_signal   0x000086       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        uc_read_code_type   0x000096       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_send_bit_size   0x000093       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+uc_send_bit_size_2nd_data   0x000094       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         ui_PWM50_Set_Val   0x000099       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          ui_out_off_time   0x00008c       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+           ui_out_on_time   0x00008a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               ui_out_pos   0x000087       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            volume_buffer   0x00006a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             volume_input   0x000269       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+    volume_input_out_flag   0x00009f       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                 High_ISR   0x000008    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       ___return_lbl00003   0x00000c    program     static                          
+                  Low_ISR   0x000018    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       ___return_lbl00004   0x00001c    program     static                          
+                   _reset   0x001000    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       ___return_lbl00000   0x001004    program     static                          
+                   __init   0x001006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+        Remapped_High_ISR   0x001008    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       ___return_lbl00001   0x00100c    program     static                          
+                ClosePWM1   0x00100e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1close.c
+         Remapped_Low_ISR   0x001018    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       ___return_lbl00002   0x00101c    program     static                          
+  YourHighPriorityISRCode   0x00102c    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+   YourLowPriorityISRCode   0x00103a    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                     main   0x0011d4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         InitializeSystem   0x00122a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                 UserInit   0x001234    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                ProcessIO   0x0013f4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              __tmplbl_55   0x001ca8    program     static                          
+              __tmplbl_54   0x001ca8    program     static                          
+             USBCBSuspend   0x001cbc    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+     USBCBWakeFromSuspend   0x001cbe    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        USBCB_SOF_Handler   0x001cc0    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        USBCBErrorHandler   0x001cc2    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       USBCBCheckOtherReq   0x001cc4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+    USBCBStdSetDscHandler   0x001cc8    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              USBCBInitEP   0x001cca    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          USBCBSendResume   0x001d0c    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x001d28    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              __tmplbl_19   0x001d44    program     static                          
+              __tmplbl_20   0x001d50    program     static                          
+              __tmplbl_21   0x001d5a    program     static                          
+              __tmplbl_22   0x001d64    program     static                          
+              __tmplbl_23   0x001d6e    program     static                          
+              __tmplbl_24   0x001d78    program     static                          
+              __tmplbl_25   0x001d82    program     static                          
+              __tmplbl_26   0x001d8c    program     static                          
+       ___case_1_lbl00165   0x001d90    program     static                          
+       ___case_2_lbl00166   0x001d94    program     static                          
+       ___case_3_lbl00167   0x001d98    program     static                          
+     ___case_115_lbl00168   0x001d9c    program     static                          
+     ___case_117_lbl00169   0x001da0    program     static                          
+     ___case_116_lbl00170   0x001da4    program     static                          
+   ___case_32767_lbl00171   0x001da8    program     static                          
+     ___case_114_lbl00172   0x001dac    program     static                          
+      ___default_lbl00173   0x001db0    program     static                          
+   ___switchexit_lbl00164   0x001db2    program     static                          
+       ___return_lbl00163   0x001db6    program     static                          
+           RemoconOutData   0x001dbe    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       RemoconReceiveData   0x00253e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            USBDeviceInit   0x002540    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+           USBDeviceTasks   0x002660    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+          USBStallHandler   0x0027d6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+               USBSuspend   0x00280a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+       USBWakeFromSuspend   0x002834    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+         USBCtrlEPService   0x002862    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+   USBCtrlTrfSetupHandler   0x00292e    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+     USBCtrlTrfOutHandler   0x00298c    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBCtrlTrfInHandler   0x0029d6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+       USBCheckStdRequest   0x002a8a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+  USBStdFeatureReqHandler   0x002b48    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBCtrlEPAllowStatusStage   0x002d9c    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+  USBCtrlEPAllowDataStage   0x002e3e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBStdGetDscHandler   0x002eba    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+   USBStdGetStatusHandler   0x002f74    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+ USBCtrlEPServiceComplete   0x003028    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBCtrlTrfTxService   0x0030ea    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBCtrlTrfRxService   0x0031a8    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      USBStdSetCfgHandler   0x0032e6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+     USBConfigureEndpoint   0x0033b6    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+        USBEnableEndpoint   0x003462    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+         USBStallEndpoint   0x0034d0    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+     USBTransferOnePacket   0x0035ac    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              USBCancelIO   0x00369e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+               device_dsc   0x00374e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+        configDescriptor1   0x003760    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                hid_rpt01   0x0037db    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                hid_rpt02   0x00380f    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                hid_rpt03   0x00382e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                hid_rpt04   0x00386d    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                    sd000   0x00388a    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                    sd001   0x00388e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+                    sd002   0x0038b4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+               USB_CD_Ptr   0x0038d2    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+               USB_SD_Ptr   0x0038d4    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\usb_descriptors.c
+       USBCheckHIDRequest   0x0038da    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\HID Device Driver\usb_function_hid.c
+                _do_cinit   0x0039fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x003a16    program     static                          
+                copy_loop   0x003a6e    program     static                          
+            copy_one_byte   0x003a74    program     static                          
+             done_copying   0x003a82    program     static                          
+                     done   0x003a98    program     static                          
+       ___return_lbl00002   0x003a98    program     static                          
+            memcpypgm2ram   0x003a9a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                    jLoop   0x003ac0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+              _3jContinue   0x003acc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                   _4jEnd   0x003ad6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                     jEnd   0x003ade    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+                   memset   0x003ae0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    jLoop   0x003af4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+              _2jContinue   0x003b00    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x003b0a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                     jEnd   0x003b12    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   strlen   0x003b14    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x003b24    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x003b2e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                SetDCPWM1   0x003b30    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+               ReadEEPROM   0x003b8e    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\eeprom.c
+              WriteEEPROM   0x003baa    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\eeprom.c
+                 OpenPWM1   0x003bd8    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+         OpenPWM1ConfigIO   0x003c02    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1open.c
+              WriteTimer0   0x003c20    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+               OpenTimer0   0x003c58    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+               OpenTimer2   0x003c90    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c
+                 FXD1616U   0x003cc6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x003cd0    program     static                          
+                  endloop   0x003cec    program     static                          
+       ___return_lbl00000   0x003cf0    program     static                          
+configCleanerRemoteCode_Kyou   0x003cf2    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+configCleanerRemoteCode_Jutan   0x003cfc    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+configCleanerRemoteCode_YukaTatami   0x003d06    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+configCleanerRemoteCode_Off   0x003d10    program     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            __zero_memory   0x003d1a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               zero_block   0x003d28    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   loop_h   0x003d28    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                compare_l   0x003d30    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   loop_l   0x003d32    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 _startup   0x003d3a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x003d4a    program     static                          
+       ___return_lbl00001   0x003d54    program     static                          
+               __config_0   0x300000    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_1   0x300001    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_2   0x300002    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_3   0x300003    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_4   0x300005    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_5   0x300006    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_6   0x300008    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_7   0x300009    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_8   0x30000a    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               __config_9   0x30000b    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              __config_10   0x30000c    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              __config_11   0x30000d    program     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                 __AARGB7   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB3   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x000002       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB0   0x000003       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x000004       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000005       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000006       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB0   0x000007       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x000008       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __BARGB3   0x000009       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB2   0x00000a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB1   0x00000b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                 __BARGB0   0x00000c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                   __BEXP   0x00000d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\barg.asm
+                     SIGN   0x00000e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x00000f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                  __tmp_2   0x000010       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                  __tmp_0   0x000014       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                  __tmp_0   0x000014       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw1setdc.c
+                c_version   0x000060       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             mouse_buffer   0x000066       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            volume_buffer   0x00006a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             USBOutHandle   0x00006b       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              USBInHandle   0x00006d       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+  result_button_press_set   0x00006f       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+ result_button_press_set2   0x000070       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        eeprom_check_data   0x000071       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            uc_now_signal   0x000085       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            uc_pre_signal   0x000086       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               ui_out_pos   0x000087       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+            uc_out_status   0x000089       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+           ui_out_on_time   0x00008a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          ui_out_off_time   0x00008c       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          uc_out_data_len   0x00008e       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          uc_out_data0_on   0x00008f       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_out_data0_off   0x000090       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+          uc_out_data1_on   0x000091       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_out_data1_off   0x000092       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_send_bit_size   0x000093       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+uc_send_bit_size_2nd_data   0x000094       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        uc_first_data_bit   0x000095       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        uc_read_code_type   0x000096       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         uc_out_code_type   0x000097       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             uc_end_count   0x000098       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         ui_PWM50_Set_Val   0x000099       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                debug_ary   0x00009b       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+    volume_input_out_flag   0x00009f       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+     mouse_input_out_flag   0x0000a0       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+      hid_report_out_flag   0x0000a1       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+           USBDeviceState   0x0000a2       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+   USBActiveConfiguration   0x0000a3       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+    USBAlternateInterface   0x0000a4       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+   pBDTEntryEP0OutCurrent   0x0000a5       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+      pBDTEntryEP0OutNext   0x0000a7       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+             pBDTEntryOut   0x0000a9       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              pBDTEntryIn   0x0000b3       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+        shortPacketStatus   0x0000bd       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+     controlTransferState   0x0000be       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                  inPipes   0x0000bf       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                 outPipes   0x0000c4       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                     pDst   0x0000cb       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+             RemoteWakeup   0x0000cd       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+        USBBusIsSuspended   0x0000ce       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                USTATcopy   0x0000cf       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+          endpoint_number   0x0000d0       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+       BothEP0OutUOWNsSet   0x0000d1       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+               ep_data_in   0x0000d2       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              ep_data_out   0x0000d7       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBStatusStageTimeoutCounter   0x0000dc       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBDeferStatusStagePacket   0x0000dd       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBStatusStageEnabledFlag1   0x0000de       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBStatusStageEnabledFlag2   0x0000df       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBDeferINDataStagePackets   0x0000e0       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+USBDeferOUTDataStagePackets   0x0000e1       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                     prom   0x0000e2       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x0000e5       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0000e7       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0000e9       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                idle_rate   0x0000ec       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\HID Device Driver\usb_function_hid.c
+          active_protocol   0x0000ed       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\HID Device Driver\usb_function_hid.c
+              tblptru_sav   0x0000ee       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\mcpyp2r.asm
+          keyboard_buffer   0x000150       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         lastTransmission   0x000158       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+        lastTransmission2   0x00015a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+lastINTransmissionKeyboard   0x00015c       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+lastOUTTransmissionKeyboard   0x00015e       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+             eeprom_1data   0x000160       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              uc_out_buff   0x00016a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              delay_count   0x00018d       data     static C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                      BDT   0x000200       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+                 SetupPkt   0x000250       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+              CtrlTrfData   0x000258       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+           hid_report_out   0x000260       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+            hid_report_in   0x000261       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\Microchip\USB\usb_device.c
+             volume_input   0x000269       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+              mouse_input   0x00026a       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+               hid_report   0x00026e       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+       ReceivedDataBuffer   0x000276       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+         ToSendDataBuffer   0x0002b6       data     extern C:\Users\Administrator\Downloads\RemoconServant\RemoconServant_sosoru\main.c
+                 UEP0bits   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP0   0x000f53       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP1bits   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP1   0x000f54       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP2   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP2bits   0x000f55       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP3   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP3bits   0x000f56       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP4   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP4bits   0x000f57       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP5   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP5bits   0x000f58       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP6   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP6bits   0x000f59       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEP7   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEP7bits   0x000f5a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEIEbits   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEIE   0x000f5b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    UADDR   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                UADDRbits   0x000f5c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    UFRML   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                UFRMLbits   0x000f5d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    UFRMH   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                UFRMHbits   0x000f5e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UEIR   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UEIRbits   0x000f5f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      UIE   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  UIEbits   0x000f60       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UCFGbits   0x000f61       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UCFG   0x000f61       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      UIR   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  UIRbits   0x000f62       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                USTATbits   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    USTAT   0x000f63       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 UCONbits   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     UCON   0x000f64       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SRCON0   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SRCON0bits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SRCON1   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SRCON1bits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CM2CON0bits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  CM2CON0   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CM2CON1bits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  CM2CON1   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  CM1CON0   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CM1CON0bits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SSPMSK   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SSPMSKbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               SLRCONbits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SLRCON   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     WPUA   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 WPUAbits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 WPUBbits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     WPUB   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IOCA   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IOCAbits   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IOCB   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IOCBbits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    ANSEL   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                ANSELbits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ANSELH   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ANSELHbits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                EEADRbits   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PWM1CON   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              PWM1CONbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PSTRCON   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              PSTRCONbits   0x000fb9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON0bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  REFCON0   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 VREFCON0   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+             VREFCON0bits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  REFCON1   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON1bits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 VREFCON1   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+             VREFCON1bits   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              REFCON2bits   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+             VREFCON2bits   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  REFCON2   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 VREFCON2   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  OSCCON2   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              OSCCON2bits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                        W   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f14k50.asm
+
+
